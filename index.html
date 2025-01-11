@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/resources/favicon.ico" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Major+Mono+Display&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header class="header" id="top">
+      <div class="container">
+        <nav class="flex justify-between align-center">
+          <div class="left flex align-center">
+            <div class="logo"><img src="./resources/logo.png" alt="" /></div>
+            <div class="menu-items">
+              <a href="#hero">Home</a>
+              <a href="#about">About</a>
+              <a href="#skills">skills</a>
+              <a href="#">projects</a>
+            </div>
+          </div>
+          <div class="right">
+            <a href="#contact">
+              <button class="btn btn-primary">contact</button>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="hero" id="hero">
+      <div class="container flex justify-between align-center">
+        <div class="left flex-1">
+          <img src="./resources/man.jpg" alt="" />
+        </div>
+        <div class="right flex-1">
+          <h4>Hi, I am MSK</h4>
+          <h1>I'm a <span>Web Developer</span></h1>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus, placeat fuga quia quis hic eveniet nisi, itaque
+            necessitatibus corrupti molestias laudantium amet, ipsa quae enim
+            quisquam saepe molestiae aliquam ullam.
+          </p>
+          <button class="btn btn-secondary">Download CV</button>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about-content flex justify-between">
+        <div class="left flex-1">
+          <img src="./resources/about_img.png" alt="about" />
+        </div>
+
+        <div class="flex-1 right">
+          <h1>About <span>Me</span></h1>
+          <h3>Hello! i’m Msk.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+          </p>
+          <div class="social flex">
+            <a href="#"><img src="./resources/website.svg" alt="website" /></a>
+            <a href="https://www.facebook.com/"
+              ><img src="./resources/facebook.svg" alt="facebook"
+            /></a>
+            <a href="https://twitter.com/">
+              <img src="./resources/twitter.svg" alt="twitter"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <h1 class="section-heading">My <span>Skills</span></h1>
+
+        <div class="skills-wrapper">
+          <div class="card">
+            <img src="./resources/html.svg" alt="" />
+            <h1>HTML</h1>
+          </div>
+          <div class="card">
+            <img src="./resources/css.svg" alt="" />
+            <h1>CSS</h1>
+          </div>
+          <div class="card">
+            <img src="./resources/js.svg" alt="" />
+            <h1>JavaScript</h1>
+          </div>
+          <div class="card">
+            <img src="./resources/react.svg" alt="" />
+            <h1>React</h1>
+          </div>
+          <div class="card">
+            <img src="./resources/node.svg" alt="" />
+            <h1>Node</h1>
+          </div>
+          <div class="card">
+            <img src="./resources/mongodb.svg" alt="" />
+            <h1>MongoDB</h1>
+          </div>
+          <div class="card">
+            <img src="./resources/bootstrap.svg" alt="" />
+            <h1>Bootstrap</h1>
+          </div>
+          <div class="card">
+            <img src="./resources/tailwind.svg" alt="" />
+            <h1>Tailwind</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h1 class="section-heading">Contact <span>Us</span></h1>
+        <p>We provide high standar clean website for your business solutions</p>
+        <div class="card-wrapper">
+          <div class="card">
+            <img src="./resources/phone.svg" alt="" />
+            <h1>Call Us On</h1>
+            <h6>+918888888888</h6>
+          </div>
+          <div class="card">
+            <img src="./resources/msg.svg" alt="" />
+            <h1>Email Us At</h1>
+            <h6>support@msk.com</h6>
+          </div>
+          <div class="card">
+            <img src="./resources/map.svg" alt="" />
+            <h1>Visit Office</h1>
+            <h6>pincode:677876 dummy data , dummy state</h6>
+          </div>
+        </div>
+
+        <form action="">
+          <div class="input-wrap">
+            <input type="text" placeholder="Your Name *" />
+            <input type="email" placeholder="Your Email *" />
+          </div>
+          <div class="input-wrap-2">
+            <input type="text" placeholder="Your Subject..." />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Your Message..."
+            ></textarea>
+          </div>
+          <div class="btn-wrapper">
+            <button class="btn btn-dark">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <img class="footer-logo" src="./resources/logo.png" alt="" />
+      <div class="footer-socials">
+        <a href="#"><img src="./resources/website_dark.svg" alt="" /></a>
+        <a href="https://www.facebook.com/"
+          ><img src="./resources/facebook_dark.svg" alt=""
+        /></a>
+        <a href="https://twitter.com/">
+          <img src="./resources/twitter_dark.svg" alt=""
+        /></a>
+
+        <a href="https://www.instagram.com/">
+          <img src="./resources/instagram_dark.svg" alt=""
+        /></a>
+      </div>
+      <div class="copyright">Copyright 2020 © msk</div>
+    </footer>
+  </body>
+</html>
